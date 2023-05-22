@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .formcss{
+            margin: 10px 80px;
+            height: 200px;
+            width: 80%;
+            align-items: center;
+            /* border:px; */
+
+            padding: 100px 40px;
+            border-style:solid;
+            border-color: white violet;
+            background-color: rgb(245, 233, 212);
+        }
+        input{
+            width:60%;
+            height:30px;
+            margin: 10px 0px; 
+            border-radius: 10px;
+            border-color: violet;
+        }
+        label{
+            color:violet;
+            width: 30px;
+            /* padding-left: 45px; */
+            padding-right: 25px;
+        }
+        a{
+            color:gray;
+            margin: 10px 10px;
+            border: 10px 10px;
+            border-style: none;
+            text-decoration: none;
+        }
+        button{
+            margin: 10px 10px;
+            width:30%;
+            height:30px;
+            border-color: violet;
+            background-color:violet;
+            color:whitesmoke;
+            font-size:16px;
+            font-weight: bold;
+        }
+        button:hover{
+            opacity: 0.8;
+
+        }
+        
+
+.maincss{
+    /* background-image: url(images/background.jpg); */
+    padding: 10% 10%;
+     background-image: linear-gradient(180deg, white, lightgreen, darkblue);; */
+/* /rgin :5% 30%; */
+} 
+
+    </style>
+</head>
+<body class="maincss" >
+    
+    <form class="formcss">
+        <h1 style="color: violet;text-align: center;">Sign In</h1>
+        <label>Email</label><input type="email" placeholder="Enter your Email Id" required></input><br/>
+        <label>Password</label><input type="password" placeholder="Enter your Password"></input><br/>
+        <a href="#">Forgot password?</a><br/>
+        <button>Sign in</button>
+    </form>
+    
+    
+</body>
+</html>
